@@ -3,8 +3,7 @@
 A* path planning in various 3D environments
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/><br/>
-  <em>An episode of one of the environments available in highway-env.</em>
+  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/>
 </p>
 
 ## Getting Started
