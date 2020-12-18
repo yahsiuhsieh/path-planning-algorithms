@@ -52,7 +52,7 @@ test_single_cube(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/cube.png"/><br/>
-  <em>Cube.</em>
+  <em>The cube environment.</em>
 </p>
 
 ### Flappy Bird
@@ -64,7 +64,7 @@ test_flappy_bird(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/><br/>
-  <em>Flappy Bird.</em>
+  <em>The flappy bird environment.</em>
 </p>
 
 ### Maze
@@ -76,7 +76,7 @@ test_maze(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/maze.png"/><br/>
-  <em>Maze.</em>
+  <em>The maze environment.</em>
 </p>
 
 ### Monza
@@ -88,7 +88,7 @@ test_monza(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/monza.png"/><br/>
-  <em>Monza.</em>
+  <em>The monza environment.</em>
 </p>
 
 ### Room
@@ -100,7 +100,7 @@ test_room(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/room.png"/><br/>
-  <em>Room.</em>
+  <em>The room environment.</em>
 </p>
 
 ### Tower
@@ -112,7 +112,7 @@ test_tower(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/tower.png"/><br/>
-  <em>Tower.</em>
+  <em>The tower environment.</em>
 </p>
 
 ### Window
@@ -124,5 +124,5 @@ test_window(True)
 
 <p align="center">
   <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/window.png"/><br/>
-  <em>Window.</em>
+  <em>The window environment.</em>
 </p>
