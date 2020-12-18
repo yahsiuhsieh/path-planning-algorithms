@@ -51,7 +51,8 @@ test_single_cube(True)
 ```
 
 <p align="center">
-  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/cube.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/cube.png"/><br/>
+  <em>Agent running in the intersection environment.</em>
 </p>
 
 ### Flappy Bird
