@@ -1,0 +1,16 @@
+# An example environment
+# boundary xmin ymin zmin xmax ymax zmax
+# block xmin ymin zmin xmax ymax zmax r g b
+# (lower left) (upper right) (color)
+# start
+#   [0.5 2.5 5.5];
+# stop
+#   [19.0 2.5 5.5];
+boundary 0.0 0.0 0.0 20.0 5.0 6.0 120 120 120
+block 3.10 0.0 2.10 3.90 5.0 6.0 120 120 120
+block 9.10 0.0 2.10 9.90 5.0 6.0 120 120 120
+block 15.10 0.0 2.10 15.90 5.0 6.0 120 120 120
+block 0.10 0.0 0.0 0.90 5.0 3.90 120 120 120
+block 6.10 0.0 0.0 6.90 5.0 3.90 120 120 120
+block 12.10 0.0 0.0 12.90 5.0 3.90 120 120 120
+block 18.10 0.0 0.0 18.90 5.0 3.90 120 120 120
