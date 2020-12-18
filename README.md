@@ -3,7 +3,7 @@
 A* path planning in various 3D environments
 
 <p align="center">
-  <img width="300" height="300" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/>
 </p>
 <p align="center">
   <em>Flappy bird environment.</em>
@@ -54,7 +54,7 @@ test_single_cube(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/cube.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/cube.png"/>
 </p>
 
 ### Flappy Bird
@@ -65,7 +65,7 @@ test_flappy_bird(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/>
 </p>
 
 ### Maze
@@ -76,7 +76,7 @@ test_maze(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/maze.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/maze.png"/>
 </p>
 
 ### Monza
@@ -87,7 +87,7 @@ test_monza(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/monza.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/monza.png"/>
 </p>
 
 ### Room
@@ -98,7 +98,7 @@ test_room(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/room.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/room.png"/>
 </p>
 
 ### Tower
@@ -109,7 +109,7 @@ test_tower(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/tower.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/tower.png"/>
 </p>
 
 ### Window
@@ -120,5 +120,5 @@ test_window(True)
 ```
 
 <p align="center">
-  <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/window.png"/>
+  <img width="480" height="360" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/window.png"/>
 </p>
