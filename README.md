@@ -39,7 +39,7 @@ There are 7 3D environments that you can try, as shown in [The Envs section](#th
 
 Run the following commands to excecute the different path planning algorithms.
 
-1. Modify line 145 in the `main.py` file if you want to switch different path planning algorithms
+1. Modify line 145 in the `main.py` file if you want to run different path planning algorithms
 
 ```python
 MP = RRTStar.RRTStarPlanner(boundary, blocks)
