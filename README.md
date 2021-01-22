@@ -1,6 +1,6 @@
-# A* Path Planning
+# Path Planning
 
-A* path planning in various 3D environments
+Path planning in various 3D environments
 
 <p align="center">
   <img width="640" height="480" src="https://github.com/arthur960304/astar-path-planning/blob/main/results/flappy_bird.png"/>
@@ -22,12 +22,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 .
-├── src                # Scripts
-│   ├── maps           # Folder contains all envs
-│   ├── main.py        # Code to create env and call the planner
-│   └── Planner.py     # Main A* algorithm
-├── results            # Path visualization in .png
-├── doc                # Detailed info
+├── src                 # Scripts
+│   ├── maps            # Folder contains all envs
+│   ├── main.py         # Code to create env and call the planner
+│   ├── RRT.py          # Main rrt algorithm
+│   ├── RRTStar.py      # Main rrt star algorithm
+│   └── AStar.py        # Main a star algorithm
+├── results             # Path visualization in .png
+├── doc                 # Detailed info
 └── README.md
 ```
 
@@ -35,7 +37,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 There are 7 3D environments that you can try, as shown in [The Envs section](#the-envs)
 
-Run the following commands to excecute the A* algorithm.
+Run the following commands to excecute the different path planning algorithms.
+
+1. Modify line 145 in the `main.py` file if you want to switch different path planning algorithms
+
+```python
+MP = RRTStar.RRTStarPlanner(boundary, blocks)
+```
+
+2. Execute this command to run the program
 
 ```
 python main.py
