@@ -1,4 +1,4 @@
-# Path Planning
+# Path Planning Algorithms
 
 Path planning in various 3D environments
 
