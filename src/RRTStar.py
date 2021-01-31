@@ -90,9 +90,9 @@ class RRTStarPlanner(RRTPlanner):
             return None
 
         min_idx = near_idxs[cost.index(min_cost)]
-        new_node = self.steer(self.node_list[min_idx], node)
-        new_node.cost = min_cost
-        return new_node
+        node = self.steer(self.node_list[min_idx], node)
+        node.cost = min_cost
+        return node
 
     def rewire(self, node, near_idxs):
         """
