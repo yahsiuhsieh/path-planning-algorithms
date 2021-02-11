@@ -26,8 +26,8 @@ These instructions will get you a copy of the project up and running on your loc
 │   ├── maps            # Folder contains all envs
 │   ├── main.py         # Code to create env and call the planner
 │   ├── RRT.py          # Main rrt algorithm
-│   ├── RRTStar.py      # Main rrt star algorithm
-│   └── AStar.py        # Main a star algorithm
+│   ├── RRTstar.py      # Main rrt star algorithm
+│   └── Astar.py        # Main a star algorithm
 ├── results             # Path visualization in .png
 ├── doc                 # Detailed info
 └── README.md
@@ -42,7 +42,7 @@ Run the following commands to excecute the different path planning algorithms.
 1. Modify line 145 in the `main.py` file if you want to run different path planning algorithms
 
 ```python
-MP = RRTStar.RRTStarPlanner(boundary, blocks)
+MP = RRTstar.RRTstarPlanner(boundary, blocks)
 ```
 
 2. Execute this command to run the program
