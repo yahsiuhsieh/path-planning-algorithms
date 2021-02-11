@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.ion()
 from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-import AStar, RRT, RRTStar
+import Astar, RRT, RRTstar
 
 
 def tic():
@@ -142,7 +142,7 @@ def runtest(mapfile, start, goal, verbose=True):
     """
     # Load a map and instantiate a motion planner
     boundary, blocks = load_map(mapfile)
-    MP = AStar.AStarPlanner(boundary, blocks)
+    MP = Astar.AstarPlanner(boundary, blocks)
 
     # Display the environment
     if verbose:
