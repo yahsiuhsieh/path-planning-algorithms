@@ -2,7 +2,7 @@ import numpy as np
 from heapq import heappush, heappop
 
 
-class AStarPlanner:
+class AstarPlanner:
     """
     Class for a star planning
     """
