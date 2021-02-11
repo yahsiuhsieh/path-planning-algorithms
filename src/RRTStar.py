@@ -6,7 +6,7 @@ from RRT import RRTPlanner
 np.seterr(divide="ignore", invalid="ignore")
 
 
-class RRTStarPlanner(RRTPlanner):
+class RRTstarPlanner(RRTPlanner):
     """
     Class for rrt star planning
     """
